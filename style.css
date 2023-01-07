@@ -146,6 +146,7 @@
   background-blend-mode: darken;
   background-repeat: no-repeat;
   margin-left: 200px;
+  padding: 10px;
 }
 
 .gradient-subtitle {
@@ -161,7 +162,6 @@
 .gradient-btn {
   font-weight: bold;
   font-size: 25px;
-  margin-top: 25px;
   background-color: white;
   color: chocolate;
   padding: 15px 30px;
@@ -170,14 +170,19 @@
   background-color: white;
 }
 
+.gradient-btn-box {
+  padding: 10px 0px;
+}
+
 /* footer-section */
 .footer-container {
   height: 80vh;
-  margin-top: 150px;
+  padding: 40px 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: black;
+  margin-top: 100px;
 }
 .footer-description {
   padding-left: -20px;
