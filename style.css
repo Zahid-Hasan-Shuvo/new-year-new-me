@@ -145,19 +145,20 @@
     linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0));
   background-blend-mode: darken;
   background-repeat: no-repeat;
+  background-position: center;
   margin-left: 150px;
   position: relative;
 }
 
 .gradient-subtitle {
   font-size: 48px;
-  padding-top: 55px;
   color: white;
 }
 .gradient-description {
   position: absolute;
   left: 50px;
   top: 20px;
+  padding: 30px;
 }
 .gradient-btn {
   font-weight: bold;
@@ -169,11 +170,9 @@
   color: rgba(255, 0, 0, 0.979);
   background-color: white;
 }
-
 .gradient-btn-box {
-  padding: 10px 0px;
+  padding: 30px 0;
 }
-
 /* footer-section */
 .footer-container {
   height: 80vh;
