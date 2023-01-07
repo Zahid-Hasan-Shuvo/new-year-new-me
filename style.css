@@ -146,6 +146,7 @@
   background-blend-mode: darken;
   background-repeat: no-repeat;
   margin-left: 150px;
+  position: relative;
 }
 
 .gradient-subtitle {
@@ -154,8 +155,9 @@
   color: white;
 }
 .gradient-description {
-  padding-left: 50px;
-  padding-bottom: 40px;
+  position: absolute;
+  left: 50px;
+  top: 20px;
 }
 .gradient-btn {
   font-weight: bold;
